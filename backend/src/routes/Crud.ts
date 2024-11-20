@@ -8,7 +8,7 @@ import { AllTask, CreateTask, GetTask, RemoveTask, StreamingData, UpdateTask} fr
  router.delete("/tasks/:id",RemoveTask);
  router.put("/tasks/:id",UpdateTask);
  router.get("/tasks",AllTask);
- router.get("/tasks/:id",GetTask)
+ router.get("/tasks/:name",GetTask);
  router.get("/streaming",StreamingData);
 
 

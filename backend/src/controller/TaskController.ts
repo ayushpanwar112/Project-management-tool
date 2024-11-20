@@ -28,13 +28,18 @@ const CreateTask=async(req:Request,res:Response)=>{
     catch(e:unknown)
     {
         console.log("error",e)
-        res.status(500).json({success:true,message:"Sorry failed"})
+        res.status(500).json({success:false,message:"Sorry failed"})
     }
+
+  //
+
+//
 
 
 }
 const GetTask=async(req:Request,res:Response):Promise<void>=>{
-        const task = await TaskModel.findById(req.params.id);
+      // const task = await TaskModel.findById(req.params.id);
+       const task = await TaskModel.findOne({ name: req.params.name });
         if(task)
         {
           res.status(200).json({success:true,task});

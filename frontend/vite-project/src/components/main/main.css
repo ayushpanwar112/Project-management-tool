@@ -1,0 +1,17 @@
+.main-cont {
+ 
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr; /* Single column layout */
+    gap: 1rem; /* Space between grid items */
+    padding: 0px 5px;
+    margin-top: 50px;
+  }
+  
+  .info, .list-info {
+    padding: 1rem;
+   
+    border-radius: 5px;
+       
+    border-radius: 10px;
+  }
+  
