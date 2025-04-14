@@ -1,0 +1,76 @@
+.event-container {
+    background-image: url("https://images.unsplash.com/photo-1608865413608-6cfd1fc622b3?q=80&w=2070&auto=format&fit=crop");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Blurred Transparent Overlay (Better Contrast) */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly lighter for more visibility */
+  }
+  
+  /* Fix for Safari: Use an extra div for the blur effect */
+  .overlay::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px); /* Works in modern browsers */
+    -webkit-backdrop-filter: blur(10px); /* Safari Fix */
+  }
+  
+  /* 🌟 Shiny, Golden-Glow Text Effect */
+  .event-heading {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: bold;
+    z-index: 2;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    
+  
+    /* Gold Gradient with a Soft Glow */
+    background: linear-gradient(90deg, #ffdd00, #ff8800, #ffd700, #ff8800, #ffdd00);
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 20px rgba(255, 200, 0, 0.8), 
+                 2px 2px 10px rgba(255, 165, 0, 0.6); /* Soft golden glow */
+  
+    animation: shine 3s linear infinite, glow 2s ease-in-out infinite alternate;
+  }
+  
+  /* 🎇 Shine Animation */
+  @keyframes shine {
+    0% {
+      background-position: 0% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+  
+  /* ✨ Subtle Glow Animation */
+  @keyframes glow {
+    0% {
+      text-shadow: 4px 4px 20px rgba(255, 200, 0, 0.8);
+    }
+    100% {
+      text-shadow: 6px 6px 30px rgba(255, 200, 0, 1), 
+                   3px 3px 15px rgba(255, 165, 0, 0.8);
+    }
+  }
+  

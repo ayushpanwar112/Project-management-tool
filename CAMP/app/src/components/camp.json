@@ -1,0 +1,97 @@
+[
+    {
+      "id": 1,
+      "title": "Jungle Paradise Camp",
+      "price": 2500,
+      "type": "base",
+      "top": true,
+      "whatsappLink": "https://wa.me/919876543210",
+      "image": "https://media.istockphoto.com/id/497777638/photo/woman-reading-a-book-during-sunrise-over-himalayas-everest-region.jpg?s=1024x1024&w=is&k=20&c=1rUFHlKkzC9Jg0QFdRsF543k85A-Fceb2d93NJc2nuo=",
+      "images": [
+        "https://media.istockphoto.com/id/497777638/photo/woman-reading-a-book-during-sunrise-over-himalayas-everest-region.jpg?s=1024x1024&w=is&k=20&c=1rUFHlKkzC9Jg0QFdRsF543k85A-Fceb2d93NJc2nuo=",
+        "https://images.unsplash.com/photo-1496947850313-7743325fa58c?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=2070&auto=format&fit=crop"
+      ],
+      "description": "Escape to the Jungle Paradise Camp for an unforgettable experience in the heart of nature. Enjoy cozy tents, bonfire nights, and delicious food amidst scenic landscapes.",
+      "offerings": ["Camping", "Bonfire", "Hiking", "Wildlife Safari", "Local Cuisine"]
+    },
+    {
+      "id": 2,
+      "title": "Riverside Adventure Camp",
+      "price": 2800,
+      "type": "gold",
+      "top": true,
+      "whatsappLink": "https://wa.me/919876543211",
+      "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1974&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1455496231601-e6195da1f841?q=80&w=2122&auto=format&fit=crop"
+      ],
+      "description": "Nestled by the river, this adventure camp offers breathtaking views, water activities, and a peaceful retreat away from city life.",
+      "offerings": ["River Rafting", "Fishing", "Campfire", "BBQ", "Kayaking"]
+    },
+    {
+      "id": 3,
+      "title": "Mountain View Camp",
+      "price": 3000,
+      "type": "base",
+      "whatsappLink": "https://wa.me/919876543212",
+      "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=2070&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1496947850313-7743325fa58c?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1974&auto=format&fit=crop"
+      ],
+      "description": "Wake up to the mesmerizing views of the mountains at this scenic camping spot. Enjoy trekking, star gazing, and bonfire nights.",
+      "offerings": ["Trekking", "Star Gazing", "Bonfire", "Yoga Retreat", "Photography"]
+    },
+    {
+      "id": 4,
+      "title": "Himalayan Adventure Camp",
+      "price": 3500,
+      "type": "gold",
+      "top": true,
+      "whatsappLink": "https://wa.me/919876543212",
+      "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1974&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1974&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1496947850313-7743325fa58c?q=80&w=2070&auto=format&fit=crop"
+      ],
+      "description": "Experience the thrill of adventure in the mighty Himalayas. This camp offers breathtaking trekking routes, rock climbing, and delicious mountain food.",
+      "offerings": ["Trekking", "Rock Climbing", "Local Cuisine", "Camping", "Bonfire"]
+    },
+    {
+      "id": 5,
+      "title": "Mystic Forest Camp",
+      "price": 2700,
+      "type": "base",
+      "top": true,
+      "whatsappLink": "https://wa.me/919876543212",
+      "image": "https://images.unsplash.com/photo-1455496231601-e6195da1f841?q=80&w=2122&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1455496231601-e6195da1f841?q=80&w=2122&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1974&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop"
+      ],
+      "description": "A mystical camping experience surrounded by dense forests, birds chirping, and the sound of a flowing river.",
+      "offerings": ["Forest Walk", "Bird Watching", "Meditation", "Bonfire", "Stargazing"]
+    },
+    {
+      "id": 6,
+      "title": "Golden Beach Camp",
+      "price": 3200,
+      "type": "gold",
+      "whatsappLink": "https://wa.me/919876543212",
+      "image": "https://images.unsplash.com/photo-1496947850313-7743325fa58c?q=80&w=2070&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1496947850313-7743325fa58c?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1455496231601-e6195da1f841?q=80&w=2122&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop"
+      ],
+      "description": "Enjoy a unique camping experience on the beach with stunning sunsets, delicious seafood, and relaxing vibes.",
+      "offerings": ["Beach Camping", "Surfing", "Bonfire", "Seafood", "Yoga"]
+    }
+  ]
+  
